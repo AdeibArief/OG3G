@@ -30,7 +30,7 @@ export default function App() {
               user ? <Navigate to="/history" /> : <Navigate to="/login" />
             }
           />
-
+        <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route
             path="/setup"
