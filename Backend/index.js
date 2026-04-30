@@ -14,7 +14,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ origin: "https://og-3-e5twzuqz5-adeibariefs-projects.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://og-3-g.vercel.app", credentials: true }));
 
 app.use("/api/auth", authRoutes);
 app.use("/api/matches", matchRoutes);
